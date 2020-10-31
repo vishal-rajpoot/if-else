@@ -1,36 +1,41 @@
-## Welcome to GitHub Pages
+Welcome to the if-else wiki!
 
-You can use the [editor on GitHub](https://github.com/vishal-rajpoot/if-else/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+What is if...else statement in Python? Decision making is required when we want to execute a code only if a certain condition is satisfied.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The if…elif…else statement is used in Python for decision making.
 
-### Markdown
+Python if Statement Syntax if test expression: statement(s) Here, the program evaluates the test expression and will execute statement(s) only if the test expression is True.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+If the test expression is False, the statement(s) is not executed.
 
-```markdown
-Syntax highlighted code block
+In Python, the body of the if statement is indicated by the indentation. The body starts with an indentation and the first unindented line marks the end.
 
-# Header 1
-## Header 2
-### Header 3
+Python interprets non-zero values as True. None and 0 are interpreted as False.
 
-- Bulleted
-- List
+Python if Statement Flowchart Flowchart of if statement in Python programming Flowchart of if statement in Python programming Example: Python if Statement
 
-1. Numbered
-2. List
+If the number is positive, we print an appropriate message
+num = 3 if num > 0: print(num, "is a positive number.") print("This is always printed.")
 
-**Bold** and _Italic_ and `Code` text
+num = -1 if num > 0: print(num, "is a positive number.") print("This is also always printed.") When you run the program, the output will be:
 
-[Link](url) and ![Image](src)
-```
+3 is a positive number This is always printed This is also always printed.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In the above example, num > 0 is the test expression.
 
-### Jekyll Themes
+The body of if is executed only if this evaluates to True.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vishal-rajpoot/if-else/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+When the variable num is equal to 3, test expression is true and statements inside the body of if are executed.
+
+If the variable num is equal to -1, test expression is false and statements inside the body of if are skipped.
+
+The print() statement falls outside of the if block (unindented). Hence, it is executed regardless of the test expression.
+
+Python if...else Statement Syntax of if...else if test expression: Body of if else: Body of else
+
+The if..else statement evaluates test expression and will execute the body of if only when the test condition is True.
+
+If the condition is False, the body of else is executed. Indentation is used to separate the blocks.
 
 ### Support or Contact
 
